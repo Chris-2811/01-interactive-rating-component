@@ -94,11 +94,9 @@ body {
 
 .container .btn {
   background-color: var(--Orange);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #fff;
   width: 100%;
-  padding: 12px;
+  padding: 14px;
   border: none;
   text-align: center;
   font-size: 15px;
@@ -108,7 +106,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: inherit;
-  
 }
 
 .container .btn:hover {
