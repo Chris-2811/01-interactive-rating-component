@@ -134,6 +134,10 @@ body {
     #181e27 100%
   );
   color: #fff;
+  position: absolute;
+  top: 196px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 412px;
   height: 416px;
   padding: 45px 40px 45px 32px;
