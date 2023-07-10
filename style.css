@@ -64,7 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin-block: 24px 32px;
+  margin-block: 28px 32px;
 }
 
 .container .rating {
