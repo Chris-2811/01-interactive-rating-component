@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <!-- displays site properly based on user's device -->
 
     <link
@@ -27,15 +30,30 @@
       <div class="form" id="form">
         <h1>How did we do?</h1>
         <p>
-          Please let us know how we did with your support request. All feedback is
-          appreciated to help us improve our offering!
+          Please let us know how we did with your support request. All
+          feedback is appreciated to help us improve our offering!
         </p>
         <ul class="ratings-container">
-          <li class="rating" value="1">1</li>
-          <li class="rating" value="2">2</li>
-          <li class="rating" value="3">3</li>
-          <li class="rating" value="4">4</li>
-          <li class="rating" value="5">5</li>
+          <li>
+            <input type="radio" name="rating" id="rating-1" value="1" />
+            <label for="rating-1">1</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" id="rating-2" value="2" />
+            <label for="rating-2">2</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" id="rating-3" value="3" />
+            <label for="rating-3">3</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" id="rating-4" value="4" />
+            <label for="rating-4">4</label>
+          </li>
+          <li>
+            <input type="radio" name="rating" id="rating-5" value="5" />
+            <label for="rating-5">5</label>
+          </li>
         </ul>
         <button type="submit" class="btn" id="submit">Submit</button>
       </div>
@@ -45,11 +63,13 @@
 
     <div class="modal-container" id="modal">
       <img src="images/illustration-thank-you.svg" alt="" />
-      <div class="rating-text" id="rating-text">you selected 4 out of 5</div>
+      <div class="rating-text" id="rating-text">
+        you selected 4 out of 5
+      </div>
       <h1>Thank You!</h1>
       <p>
-        We appreciate you taking the time to give a rating. If you ever need
-        more support, don’t hesitate to get in touch!
+        We appreciate you taking the time to give a rating. If you ever
+        need more support, don’t hesitate to get in touch!
       </p>
     </div>
 

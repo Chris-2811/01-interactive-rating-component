@@ -67,6 +67,39 @@ body {
   margin-block: 28px 32px;
 }
 
+[type='radio'] {
+  opacity: 0;
+}
+
+input[type='radio']:checked + label {
+  background-color: var(--medium-grey);
+  color: #fff;
+}
+
+.container .ratings-container > li {
+  position: relative;
+  background: var(--dark-blue);
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.container .ratings-container label {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .container .rating {
   width: 51px;
   height: 51px;
@@ -81,12 +114,7 @@ body {
   font-size: 16px;
 }
 
-.container .rating.selected {
-  background-color: var(--medium-grey);
-  color: #fff;
-}
-
-.container .rating:hover {
+.container .ratings-container > li:hover {
   background-color: var(--Orange);
   color: #fff;
   cursor: pointer;
